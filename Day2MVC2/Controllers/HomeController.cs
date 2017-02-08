@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Day1MVC.Controllers
+namespace Day2MVC2.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,9 +13,8 @@ namespace Day1MVC.Controllers
             return View();
         }
 
-        public ActionResult FunnyJoke()
-        {
-            return View();
-        }
+       
+
+        
     }
 }

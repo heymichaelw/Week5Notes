@@ -4,16 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Day1MVC.Controllers
+namespace Day2MVC.Controllers
 {
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult FunnyJoke()
         {
             return View();
         }

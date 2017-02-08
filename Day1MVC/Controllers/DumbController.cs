@@ -6,15 +6,12 @@ using System.Web.Mvc;
 
 namespace Day1MVC.Controllers
 {
-    public class HomeController : Controller
+    public class DumbController : Controller
     {
+        // GET: Dumb
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult FunnyJoke()
-        {
+            ViewBag.myInts = new List<int> { 1, 2, 3, 4, 5 };
             return View();
         }
     }
